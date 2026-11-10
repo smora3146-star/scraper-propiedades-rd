@@ -12,8 +12,7 @@ venv\Scripts\activate        # Windows  (en Linux/Mac: source venv/bin/activate)
 python -m pip install -r requirements.txt
 python scraper_propiedades.py
 ```
-Antes de correr: cambiar `AUTORES` (nombres de los 5 integrantes) y `TASA_USD_A_DOP`
-(tasa del día) al inicio de `scraper_propiedades.py`.
+
 Tarda unos 10 a 15 minutos porque pausa 1 segundo entre requests y abre el detalle de
 cada anuncio de Corotos y SuperCasas.
 
