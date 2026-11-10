@@ -33,4 +33,4 @@ cada anuncio de Corotos y SuperCasas.
 - **Moneda**: los sitios mezclan US$ y RD$. La tabla guarda `Precio` y `Moneda` originales, y `Precio_USD` convertido con `TASA_USD_A_DOP`; la propiedad más cara y la más barata se calculan con `Precio_USD`.
 - **Vendedor**: en Plusval todos los anuncios son de la agencia (`Plusval Inmobiliaria`). En Corotos sale del enlace a la tienda del anuncio. En SuperCasas se busca en la página del anuncio y, si no aparece, queda "No disponible".
 - **Baños y parqueos en Corotos**: la lista no los muestra, por eso se abre cada anuncio.
-- **SuperCasas** solo guarda anuncios con precio de venta (se descartan alquileres).
+- **SuperCasas** solo guarda anuncios con precio de venta.
